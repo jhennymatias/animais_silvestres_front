@@ -1,0 +1,21 @@
+.input-block label{
+    font-size: 1.1rem;
+}
+
+.input-block + .input-block{
+    margin-top: 1.4rem;
+}
+
+.input-block input{
+    width: 100%;
+    height: 3.5rem;
+    margin-left: 1rem;
+    margin-top: 0.8rem;
+    border-radius: 0.8rem;
+    background: #F8F8FC;
+    border: 1px solid lightslategray;
+    outline: 0;
+    padding: 0 1.6rem;
+    font: 1rem Archivo;
+
+}

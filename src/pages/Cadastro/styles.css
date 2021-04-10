@@ -1,0 +1,71 @@
+.cadastro-container {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cadastro-bemvindo {
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+
+.cadastro-container .cadastro-bemvindo-top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.cadastro-container .cadastro-bemvindo-top .logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro-bemvindo-input button {
+    margin-top: 1rem;
+    height: 3rem;
+    width: 16rem;
+    border-radius: 12px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+.cadastro-bemvindo-input {
+    margin-left: 2rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cadastro-bemvindo-input a {
+    margin-top: 1rem;
+    color: grey;
+    text-decoration: none;
+    margin-left: 1rem;
+}   
+
+
+.cadastro-container .cadastro-bemvindo-top .logo img{
+    margin-right: 1rem;
+}
+
+.cadastro-imagem {
+    background-image: url(../../img/home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    max-width: 1120px;
+    min-height: 100vh;
+}
