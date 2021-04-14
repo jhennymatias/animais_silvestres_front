@@ -1,0 +1,24 @@
+.select-block label{
+    font-size: 1.1rem;
+}
+
+.select-block select{
+    width: 100%;
+    height: 3.5rem;
+    margin-left: 1rem;
+    margin-top: 0.8rem;
+    border-radius: 0.8rem;
+    background: #F8F8FC;
+    border: 1px solid lightslategray;
+    outline: 0;
+    padding: 0 1.6rem;
+    font: 1rem Archivo;
+}
+
+.select-block:focus-within::after{
+    width: calc(100% -3.2rem);
+    height:2px;
+    content: '';
+    background: #F8F8FC;
+    position: absolute;
+}
