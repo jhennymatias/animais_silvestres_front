@@ -13,7 +13,7 @@ function Menu() {
             <div className="links">
                 <Link className="btn-header" to="/"><FaHome size={25} color="white" /> <p>Home</p></Link>
                 <Link className="btn-header" to="/cadastroAnimal"><FaPlus size={25} color="white" /><p>Cadastrar</p></Link>
-                <Link className="btn-header" to="/info"><FaInfo size={25} color="white" /><p>Meus animais</p></Link>
+                <Link className="btn-header" to="/indexanimais"><FaInfo size={25} color="white" /><p>Meus animais</p></Link>
             </div>
         </div>
     );

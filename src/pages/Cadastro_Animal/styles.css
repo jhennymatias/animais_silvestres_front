@@ -1,0 +1,70 @@
+.animal-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.animal-container .animal-form .animal-form-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.animal-container .animal-form .animal-form-input .animal-form-inputs .animal-form-especie{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.animal-container .animal-form .animal-form-input .animal-form-inputs .animal-form-especie .animal-form-select {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+
+.animal-container .animal-form .animal-form-input .animal-form-inputs .animal-form-especie .animal-form-select .select-block {
+    margin-left: 0.5rem;
+}
+
+.button-cadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-cadastro button{
+    height: 3rem;
+    width: 10rem;
+    background-color: green;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    color: white;
+    font-weight: bold;
+}
+.localizacao{
+    margin-top: 1rem;
+    
+}
+
+.localizacao p{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.radio_sozinho{
+    margin-top: 1rem;
+}
+
+.radio_sozinho label{
+    margin-right: 0.5rem;
+}
